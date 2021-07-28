@@ -1,0 +1,6 @@
+# exclude everything except .py
+/*
+/**/*
+!/.gitignore
+!/**/*.py
+
