@@ -9,7 +9,7 @@ def read_shp(shp_path):
 
     record_dicts_list = []
     with shapefile.Reader(shp_path, encoding='euc-kr') as sf:
-        print(sf.fields)
+        # print(sf.fields)
         for rec in sf.records():
             record_dicts_list.append(rec.as_dict())
 
